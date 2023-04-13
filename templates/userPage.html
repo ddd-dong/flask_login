@@ -16,11 +16,12 @@
             <div class="border border-2 p-2 col-6 text-center">
                 <h2 class="h1">
                     歡迎回來 {{userN.name}}
-                    <br>
-                    {{userN.email}}
-                    <br>
-                    <a href="{{url_for('logout')}}">logout</a>
                 </h2>
+                <br>
+                email: {{userN.email}}
+                <br>
+                <a href="{{url_for('logout')}}">logout</a> 
+                <a href="{{url_for('index')}}">index</a>
             </div>
             <div class="col-3"></div>
         </div>        
