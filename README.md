@@ -5,13 +5,15 @@
 
 ````
 │   README.md               說明書
-│   test_hash.py            登入資料庫檢索測試用
+│   test_hash.py            測試用
 │   app.py                  後端
 └───static                  
 └───templates               html
-|   |   index.html
-|___instance                資料庫
-|   |   flask_test.db
+|   |   home.html
+|   |   login.html
+|   |   signin.html
+|   |   useerPage.html
+
 ````
 
 
@@ -23,7 +25,6 @@ Python 3.9.2
 
 ````
 Flask                        2.2.3
-Flask-Migrate                4.0.4
-SQLAlchemy                   2.0.6
-Flask-SQLAlchemy             3.0.3
+pymongo                      4.3.3
+
 ````
